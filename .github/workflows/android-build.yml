@@ -22,8 +22,8 @@ jobs:
         distribution: temurin
         java-version: 11
 
-    - name: List installed SDKs
-      run: /usr/local/lib/android/sdk/cmdline-tools/latest/bin/sdkmanager --list_installed
+#    - name: List installed SDKs
+#      run: /usr/local/lib/android/sdk/cmdline-tools/latest/bin/sdkmanager --list_installed
 
     - name: Make gradlew executable
       run: chmod +x ./gradlew
