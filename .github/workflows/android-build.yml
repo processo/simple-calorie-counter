@@ -22,8 +22,8 @@ jobs:
         distribution: temurin
         java-version: 8
 
-    - name: Install Android SDK 30
-      run: sdkmanager "platforms;android-30"
+    - name: List installed SDKs
+      run: sdkmanager --list_installed
 
     - name: Make gradlew executable
       run: chmod +x ./gradlew
